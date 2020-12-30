@@ -3,13 +3,10 @@ import ReactDOM from 'react-dom'
 
 import App from './App'
 import './index.css'
-import { StoreProvider } from './root-store-context-provider'
 
 ReactDOM.render(
     <React.StrictMode>
-        <StoreProvider>
             <App />
-        </StoreProvider>
     </React.StrictMode>,
     document.getElementById('root'),
 )
