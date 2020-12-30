@@ -1,6 +1,11 @@
+
+# About
+This project aims to reporduce error with react-doc-viewer npm module.
+ 
 # New Project
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
 
 ## Available Scripts
 
