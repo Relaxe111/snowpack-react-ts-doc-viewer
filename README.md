@@ -15,4 +15,4 @@ experiments: {
         source: 'skypack',
     },
 ```
-To see the error please uncoment lint source in snowpack.config.js 
+To see the error please uncoment line with source in snowpack.config.js 
