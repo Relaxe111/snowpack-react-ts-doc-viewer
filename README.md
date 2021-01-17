@@ -11,8 +11,10 @@ url: http://localhost:3000/web_modules/-/pdfjs-dist@v2.4.456-WBzJ8pEGmpogsCfpmUq
 when source is set to skypack.
 ```
 //snowpack.config.js
-experiments: {
-        source: 'skypack',
-    },
+  packageOptions: {
+        /* ... */
+        source:'remote',
+        types:true
+  },
 ```
 To see the error please uncoment line with source in snowpack.config.js 
