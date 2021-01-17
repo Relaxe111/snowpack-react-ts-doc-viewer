@@ -7,7 +7,7 @@ module.exports = {
     plugins: [
         //'@snowpack/plugin-react-refresh',
         '@snowpack/plugin-typescript',
-        '@snowpack/plugin-sass',
+        //'@snowpack/plugin-sass',
     ],
 
     routes: [
@@ -20,6 +20,8 @@ module.exports = {
       },
       packageOptions: {
         /* ... */
+        source:'remote',
+        types:true
       },
       devOptions: {
         /* ... */
